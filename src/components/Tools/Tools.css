@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap');
+
 .tools{
     text-align: center;
     margin-top: 6em;
+}
+
+.tools__icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em;
+    font-size: 12px;
+    font-family: 'Saira', sans-serif;
+}
+
+.tools-icons__icone{
+    padding: 2em;
+}
+
+.test {
+    font-size: 12px;
 }
