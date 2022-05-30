@@ -4,9 +4,10 @@ const Description = () => {
   return (
     <section>
       <p className='description-text'>
-        I’m a Full-Stack JavaScript Developer from Stockholm. <br />
-        I love creative problem solving, building websites and mobile applications.<br />
-        I am always looking to learn new skills and develop my abilities.<br />
+        I am innovative, creative and I love designing, building and managing projects <br />
+        from the ground up. Great at working in a team environment,<br/>
+         having previously managed projects with<br />
+        multiple requirements, but also self-sufficient and self-motivated.<br />
       </p>
     </section>
   )

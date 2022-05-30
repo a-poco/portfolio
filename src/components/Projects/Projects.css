@@ -1,0 +1,47 @@
+.projects{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projects__tittle{
+    text-align: center;
+    font-size: 18px;
+}
+
+.projects__info{
+    border-style: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 1em;
+    margin: 4em;
+}
+
+.projects-info__name {
+    font-size: 22px;
+    background-color: white;
+}
+
+.projects-info__description{
+    background-color: white;
+    margin: 1em 0em;
+    
+}
+
+.project-info__btns{
+    background-color: white;
+}
+
+.project-info__btn{
+    margin-right: 1em;
+    padding: 1em;
+    background-color: white;
+    border-style: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-info__btn:hover{
+    background-color: #f1f2f5;
+}
