@@ -1,16 +1,22 @@
 .navbar{
-    background-color: brown;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1em;
 }
 
+.navbar__title{
+ background-color: white;
+}
+
 .navbar__icones{
     display: flex;
     font-size: 22px;
+    background-color: white;
 }
 
 .navbar__icone{
-    margin-right: 1em;
+    padding-right: 1em;
+    background-color: white;
 }
