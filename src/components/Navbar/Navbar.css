@@ -1,0 +1,16 @@
+.navbar{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.navbar__icones{
+    display: flex;
+    font-size: 22px;
+}
+
+.navbar__icone{
+    margin-right: 1em;
+}
