@@ -1,5 +1,5 @@
 .projects{
-    margin-top: 3em;
+    margin-top: 6em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,15 +9,18 @@
     font-size: 18px;
 }
 
-.projects__info{
+.projects__block{
+    display: flex;
     border-style: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
-    padding: 1em;
-    margin: 4em;
+    padding: 1em 0em 1em 2em;
+    margin: 3em 12em; 
 }
-
+.projects-block__info{
+    background-color: white;
+}
 .projects-info__name {
     font-size: 22px;
     background-color: white;
@@ -44,4 +47,19 @@
 
 .project-info__btn:hover{
     background-color: #f1f2f5;
+}
+
+.project-gif{
+    width: 30%;
+}
+
+.parkn{
+    width: 65%;
+    margin-left: 10em;
+    padding: 1em;
+    background-color: white;
+}
+
+.project-info__img{
+    background-color: white;
 }
