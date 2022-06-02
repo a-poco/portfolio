@@ -11,13 +11,13 @@
 
 .projects__block{
     display: flex;
-    column-gap: 12em;
+    column-gap: 6em;
     border-style: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
     padding: 1em 0em 1em 2em;
-    margin: 3em 18em; 
+    margin: 3em 12em; 
 }
 .projects-block__info{
     background-color: white;
@@ -45,6 +45,7 @@
     border-style: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 16px;
 }
 
 .project-info__btn:hover{
@@ -59,3 +60,11 @@
 .gif{
     margin-right: 1em;
 }
+/* 
+@media only screen and (max-width: 992px) {
+    .projects__block {
+        background-color: aqua;
+        column-gap: 14em;
+        margin: 3em 16em; 
+    }
+  } */

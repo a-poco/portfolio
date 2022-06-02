@@ -60,16 +60,19 @@ const Projects = () => {
         <div className='projects-block__info'>
           <h1  className='projects-info__name'>Portfolio</h1>
           <p  className='projects-info__description'>
-            My personal portfolio page built with React  <br/>
-            which is used as a platform to display my work. <br/>
-            The application is hosted on Netlify and is fully responsive <br/>
-            React, HTML, CSS, <br/>
+            My personal portfolio page built with React 
+            which is used as a platform to display my work.
+            The application is fully responsive. 
+            React, HTML, CSS,
           </p>
           <span  className='project-info__btns'>
             <button className='project-info__btn'>GitHub Link</button>
           </span>
         </div>
         <div className='project-info__img'>
+        </div>
+        <div className='project-info__img'>
+          <img className='gif' src="projects/portafolio.gif" alt='Cristina'/>
         </div>
       </article>
     </div>
