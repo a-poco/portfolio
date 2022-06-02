@@ -6,9 +6,9 @@ const Navbar = () => {
     <nav className='navbar'>
         <h1 className='navbar__title'>Cristina Salazar</h1>
       <section className='navbar__icones'>
-        <p className='navbar__icone'><BsGithub/></p>
-        <p className='navbar__icone'><BsLinkedin/></p>
-        <p className='navbar__icone'><BsFillEnvelopeFill/></p>
+        <a href={"https://github.com/a-poco"} target={"_blank" } className='navbar__icone' rel="noreferrer"><BsGithub /></a>
+        <a  href={"https://www.linkedin.com/in/cristinasalazarmunguia/"} target={"_blank" } className='navbar__icone' rel="noreferrer"><BsLinkedin/></a>
+        <a  href={"mailto:cristina.munguia@appliedtechnology.se?subject=Hey Cristina!"} target={"_blank" } rel="noreferrer" className='navbar__icone'><BsFillEnvelopeFill/></a>
       </section>
     </nav>
   )

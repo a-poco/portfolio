@@ -6,6 +6,17 @@
     padding: 1em;
 }
 
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+
+a:-webkit-any-link:hover {
+    color: grey
+}
+
+
 .navbar__title{
  background-color: white;
 }
