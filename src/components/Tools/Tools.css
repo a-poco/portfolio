@@ -2,7 +2,8 @@
 
 .tools{
     text-align: center;
-    margin-top: 6em;
+    margin-top: 8em;
+    font-size: 22px;
 }
 
 .tools__icons{
@@ -19,6 +20,3 @@
     padding: 2em;
 }
 
-.test {
-    font-size: 12px;
-}
