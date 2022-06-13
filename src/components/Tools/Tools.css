@@ -3,7 +3,6 @@
 .tools{
     text-align: center;
     margin-top: 8em;
-    font-size: 22px;
 }
 
 .tools__icons{
@@ -11,8 +10,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 3em 20em;
-    font-size: 12px;
     font-family: 'Saira', sans-serif;
 }
 
@@ -22,9 +19,37 @@
 
 
 @media only screen and (max-width: 900px) {
-    .tools__icons{
-        justify-content: center;
+    .tools__icons {
         margin: 3em 1em;
+        font-size: 18px;
+    }
+
+    .tools{
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1300px)  {
+    .tools{
+        font-size: 26px;
+    }
+
+    .tools__icons{
+        margin: 2em 12em;
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 1301px) {
+    .tools{
+        font-size: 28px;
+    }
+
+
+    .tools__icons{
+        margin: 3em 12em;
         font-size: 18px;
     }
 

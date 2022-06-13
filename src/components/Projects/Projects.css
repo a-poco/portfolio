@@ -7,7 +7,6 @@
 }
 .projects__tittle{
     text-align: center;
-    font-size: 22px;
 }
 
 .projects__block{
@@ -59,7 +58,12 @@
 .gif{
     margin-right: 1em;
 }
+
 @media only screen and (max-width: 900px) {
+
+    .projects__tittle{
+        font-size: 22px;
+    }
 
     img.gif {
         display: none;
@@ -73,10 +77,14 @@
   }
   
   @media only screen and (min-width: 901px) and (max-width: 1300px)  {
-
-    .projects{
-        background-color: aqua;
+    
+    .projects__tittle{
+        font-size: 26px;
     }
+
+    img.gif {
+        display: none;
+      }
 
     .projects__block{
         column-gap: 1em;
@@ -87,10 +95,19 @@
   }
 
   @media only screen and (min-width: 1301px) {
-    .projects__block{
-        column-gap: 8em;
+    .projects__block {
+        column-gap: 2em;
         padding: 1em 0em 1em 1em;
-        margin: 3em 8em; 
+        margin: 3em 12em; 
   }
+
+    .projects__tittle {
+    font-size: 28px;
+  }
+
+  .project-info__btn{
+    margin-top: 4em;
+
+}
 
 }
