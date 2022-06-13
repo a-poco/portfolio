@@ -32,6 +32,10 @@
     
 }
 
+a {
+    text-decoration: none;
+}
+
 .project-info__btns{
     background-color: white;
 }
@@ -71,7 +75,7 @@
       
     .projects__block{
         column-gap: 2em;
-        padding: 1em 0em 1em 1em;
+        padding: 1em 0em 2em 1em;
         margin: 3em 2em; 
     }
   }
@@ -87,8 +91,7 @@
       }
 
     .projects__block{
-        column-gap: 1em;
-        padding: 1em 0em 1em 1em;
+        padding: 1em 0em 3em 2em;
         margin: 1em 2em; 
     }
 
@@ -96,18 +99,13 @@
 
   @media only screen and (min-width: 1301px) {
     .projects__block {
-        column-gap: 2em;
-        padding: 1em 0em 1em 1em;
+        column-gap: 4em;
+        padding: 1em 0em 2em 2em;
         margin: 3em 12em; 
   }
 
     .projects__tittle {
     font-size: 28px;
   }
-
-  .project-info__btn{
-    margin-top: 4em;
-
-}
 
 }

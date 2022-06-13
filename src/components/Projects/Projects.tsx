@@ -11,11 +11,11 @@ const Projects = () => {
           ParkN is an app created to find parks around stockholm! 
           Where you can see what facilities a park has and vote yourself.
           That way, others will know what this park has (and what it doesn't).
-          Ruby on rails, JavaScript, HTML, CSS and deploy on Heroku.
+          Ruby on rails, JavaScript, HTML, Heroku.
           </p>
           <span  className='project-info__btns'>
-            <button className='project-info__btn'>Live Demo</button>
-            <button className='project-info__btn'>GitHub Link</button>
+            <a href={"https://www.parkn.club/"} target={"_blank" } className='project-info__btn' rel="noreferrer">Live Demo</a>
+            <a href={"https://github.com/a-poco/parkn"} target={"_blank" } className='project-info__btn' rel="noreferrer">GitHub Link</a>
           </span>
         </div>
         <div className='project-info__img'>
@@ -31,8 +31,8 @@ const Projects = () => {
           Express.Js, Node.Js, JavaScript, React, TypeScript, HTML, CSS, 
           </p>
           <span  className='project-info__btns'>
-            <button className='project-info__btn'>Live Demo</button>
-            <button className='project-info__btn'>GitHub Link</button>
+            <a href={"https://www.parkn.club/"} target={"_blank" } className='project-info__btn' rel="noreferrer">Live Demo</a>
+            <a href={"https://github.com/a-poco/weather-app"} target={"_blank" } className='project-info__btn' rel="noreferrer">GitHub Link</a>
           </span>
         </div>
         <div className='project-info__img'>
@@ -48,8 +48,8 @@ const Projects = () => {
             Mongodb, Node.js, Express.js, React, Redux, Typescript, Firebase, Geocoding, HTML, CSS,
           </p>
           <span  className='project-info__btns'>
-            <button className='project-info__btn'>Live Demo</button>
-            <button className='project-info__btn'>GitHub Link</button>
+            <a href={"https://ancient-basin-65065.herokuapp.com/"} target={"_blank" } className='project-info__btn' rel="noreferrer">Live Demo</a>
+            <a href={"https://github.com/a-poco/pet_app"} target={"_blank" } className='project-info__btn' rel="noreferrer">GitHub Link</a>
           </span>
         </div>
         <div className='project-info__img'>
@@ -63,10 +63,10 @@ const Projects = () => {
             My personal portfolio page built with React 
             which is used as a platform to display my work.
             The application is fully responsive. 
-            React, HTML, CSS,
+            React, TypeScript, HTML, CSS,
           </p>
           <span  className='project-info__btns'>
-            <button className='project-info__btn'>GitHub Link</button>
+          <a href={"https://github.com/a-poco/portfolio"} target={"_blank" } className='project-info__btn' rel="noreferrer">GitHub Link</a>
           </span>
         </div>
         <div className='project-info__img'>

@@ -11,7 +11,7 @@ const Navbar = () => {
         <a  href={"mailto:cristina.munguia@appliedtechnology.se?subject=Hey Cristina!"} target={"_blank" } rel="noreferrer" className='navbar__icone'><BsFillEnvelopeFill/></a>
       </section>
     </nav>
-  )
+  ) 
 }
 
 export default Navbar
