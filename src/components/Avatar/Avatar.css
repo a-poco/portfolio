@@ -6,3 +6,15 @@
 .avatar-img {
     width: 15%;
 }
+
+@media only screen and (max-width: 600px) {
+    .avatar-img {
+        width: 40%;
+    }
+
+    .avatar{
+        margin-top: 3em;
+    }
+}
+
+

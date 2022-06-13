@@ -1,4 +1,4 @@
-import { SiJavascript, SiTypescript, SiRubyonrails, SiGraphql, SiMongodb, SiPostgresql, SiReact, SiRedux, SiWebpack, SiHtml5, SiJquery, SiCss3, SiDocker, SiAmazonaws, SiNetlify, SiHeroku, SiContentful, SiMicrosoftazure, SiFigma, SiFirebase } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiRubyonrails, SiGraphql, SiMongodb, SiPostgresql, SiReact, SiRedux, SiWebpack, SiHtml5, SiJquery, SiCss3, SiDocker, SiAmazonaws, SiNetlify, SiHeroku, SiContentful, SiFigma, SiFirebase } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import './Tools.css'
 
@@ -27,7 +27,7 @@ const Tools = () => {
           <p className="tools-icons__icone"><SiNetlify color="25c7b7" style={style}/><br/>Netlify</p>
           <p className="tools-icons__icone"><SiHeroku color="410092" style={style}/><br/>Heroku</p>
           <p className="tools-icons__icone"><SiContentful style={style}/><br/>Contentful</p>
-          <p className="tools-icons__icone"><SiMicrosoftazure color="0582cb" style={style}/><br/>Azure</p>
+          {/* <p className="tools-icons__icone"><SiMicrosoftazure color="0582cb" style={style}/><br/>Azure</p> */}
           <p className="tools-icons__icone"><SiFigma style={style}/><br/>Figma</p>          
         </div>
     </article>
