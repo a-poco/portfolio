@@ -7,7 +7,7 @@
     width: 15%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .avatar-img {
         width: 40%;
     }
